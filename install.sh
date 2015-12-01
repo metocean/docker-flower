@@ -13,3 +13,4 @@ cp -R /install/flower/* /
 rm -rf /install
 rm -rf /tmp/*
 rm -rf /var/cache/apk/*
+rm -rf ~/.cache/pip/*

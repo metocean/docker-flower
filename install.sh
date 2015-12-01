@@ -3,7 +3,7 @@ set -e
 
 apk update
 apk upgrade
-apk --update add python python-dev build-base py-pip openssl ca-certificates
+apk --update add python py-pip
 
 pip install celery[redis] flower
 

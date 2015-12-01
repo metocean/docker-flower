@@ -1,0 +1,2 @@
+#!/bin/sh -e
+exec flower --broker=$CELERY_BROKER_URL 2>&1
